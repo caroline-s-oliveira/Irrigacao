@@ -10,14 +10,14 @@ String strMSG = "0";
 char mensagem[30];
 
 // WiFi
-const char *ssid = "Subrabu"; // Enter your WiFi name
-const char *password = "Subrabinho";  // Enter WiFi password
+const char *ssid = "#"; // Enter your WiFi name
+const char *password = "#";  // Enter WiFi password
 
 // MQTT Broker
 const char *mqtt_broker = "lfe5be31.ala.us-east-1.emqxsl.com";
 const char *topic = "test";
-const char *mqtt_username = "teste123";
-const char *mqtt_password = "teste123";
+const char *mqtt_username = "user";
+const char *mqtt_password = "password";
 const int mqtt_port = 8883; // port of MQTT over TLS/SSL
 
 // init wifi client
